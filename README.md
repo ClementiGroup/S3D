@@ -1,7 +1,10 @@
-# BBC_domains
+BBC (Boninsegna-Banisch-Clementi) domains:
+
 Space Time Diffusion Map tools for identifying coherent domains in macromolecules
 
+#---------------------------
 Running Space Time Diffusion Map on a list of trajectory frames
+#---------------------------
 
 #---------------------------
 INPUT:
