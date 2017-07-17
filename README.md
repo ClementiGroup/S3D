@@ -3,7 +3,7 @@ S3D (Space and State Space Decomposition):
 Space Time Diffusion Map tools for identifying coherent domains in macromolecules
 
 #---------------------------
-Running Space Time Diffusion Map on a list of trajectory frames
+Running Space Time Diffusion Map on a list of trajectory frames: S3D-single_traj.ipynb
 #---------------------------
 
 #---------------------------
@@ -19,8 +19,9 @@ INPUT:
 
 *  out_file (string):           name of file where output is saved (default format is compressed .npz)
 
-NB: Sample data is provided from DE Shaw fip35 microsecond trajectory so that a test calculation can be successfully completed
-    Here, my_idx is generated randomly in the notebook.
+
+NB: a trajectory file (.dcd) is provided in the repository together with a topology file (pdb) for a test run.
+    A 'npz' file contains the results of the calculations for the default choice of epsilons
 
 #---------------------------
 OUTPUT
@@ -38,4 +39,16 @@ Then results can easily be combined by averaging the Space Time Diffusion matric
 of configurations used to compute it (equilibrated trajectories are of course assumed).
 #-----------------------------
 
-TODO: ASSOCIATE EACH CELL OF NOTEBOOK WITH EQUATIONS FROM SUPPORTING INFORMATION TO THE MAIN PAPER!!
+#-----------------------------
+Cluster validation protocol: cluster_validation.ipynb 
+#-----------------------------
+
+#-----------------------------
+INPUT:
+
+* filename (string):		name of file output from S3D calculation (needs to contain epsilon values, eigenvalues and 
+										eigenvectors)
+#-----------------------------
+OUTPU:
+
+* figures for silhouette scores and Ward distances, dendrograms
