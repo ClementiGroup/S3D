@@ -1,4 +1,4 @@
-BBC (Boninsegna-Banisch-Clementi) domains:
+S3D (Space and State Space Decomposition):
 
 Space Time Diffusion Map tools for identifying coherent domains in macromolecules
 
